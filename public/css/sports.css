@@ -1,0 +1,107 @@
+body {
+    display: block;
+    margin: 8px;
+    background-image: url("https://i.imgur.com/uiWBNf8.jpg");
+    background-position: top;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: 'Satisfy', cursive;
+    margin-top: 5px;
+    color: #1A5F8D;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 35px;
+    color: #1A5F8D;
+}
+
+h3 {
+    font-size:20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+.symptom {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 55px;
+}
+
+html {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+
+#nav {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+#container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left {
+    float: left;
+    width: 150px;
+    min-height: 700px;
+    margin-right: 10px;
+    margin-top: 40px;
+    background-color: rgba(255,255,255, 0.7);
+    border-style: groove;
+}  
+#right {
+    float: left;
+    width: 1000px;
+    margin-top: 40px;
+    min-height: 700px;
+    background-color: rgba(255,255,255, 0.7);
+    border-style: groove;
+}
+
+#right img{
+   border: 2px solid black;
+   margin-right: 6px;
+}
+
+ul {
+    font-size: 18px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: normal;
+}
+
+.symptom {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dr. Klossy</title>
+    <link href="css/diagnose.css" rel="stylesheet" type="text/css" >
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  </head>
+  
+    <body>
+      <div id="nav">_</div>
+      <div id="container">
+        
+    <div id="right">
+      <h1>Dr. Klossy</h1>
+        <% if @symptoms == "1"%>
+        <h5>These are your diagnoses,</h5>
+        
+        <div class="row">
+          <div class="column">
+            <span>Pregnant:</span>
+            <br>
+            <img src="https://i.giphy.com/media/Hea7yWfRHpn6E/giphy.webp" height=150>
+          </div>
+        
+          <div class="column">
+            <span>Lactose intolerant:</span>
+            <br>
+            <img src= "https://i.giphy.com/media/yF62lGfZonSKs/giphy.webp" height=150> 
+            </div>
+        
+          <div class="column">
+            <span>Celiac disease:</span>
+            <br>
+            <img src= "https://i.giphy.com/media/YOI55oGPCfife/giphy.webp" height=150>
+          </div>
+        
+          
+          
+<style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+  
+      <%elsif @symptoms == "2"%>
+      <h5>These are your diagnoses,</h5>
+      
+      <div class="row">
+          <div class="column">
+      <span>Asthma</span>
+      <br>
+      <img src="https://i.giphy.com/media/s99v0lZj1dEhW/giphy.webp" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Allergies</span>
+      <br>
+      <img src="https://i.giphy.com/media/l0MYOzEgo08kHsE8w/giphy.webp" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Resperitory tract infection</span>
+      <br>
+      <img src="https://media.giphy.com/media/gAGrxGQUtVN4Y/giphy.gif" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Air pollution</span>
+      <br>
+      <img src="https://media.giphy.com/media/UgFvXEzVcMAmY/giphy.gif" height=150>
+  </div>
+  
+  <style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+  
+  
+    
+      <%elsif @symptoms == "3"%>
+      <h5>These are your diagnoses,</h5>
+      
+      <div class="row">
+          <div class="column">
+      <span>Hypoglycemia (low blood sugar)</span>
+      <br>
+      <img src= "https://i.giphy.com/media/YQwpugsc7m6aY/giphy.webp" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Dehydration</span>
+      <br>
+      <img src= "https://i.giphy.com/media/vOxDQLo4tuMyA/giphy.webp" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Cold and Flu</span>
+       <img src= "https://i.giphy.com/media/3o85xm5S4WpAAeQ4YE/giphy.webp" height=150>
+       <br>
+       </div>
+  <!--<img src= "https://i.giphy.com/media/xThtaim72mZ6pLf5LO/giphy.webp" height=100>-->
+  
+     <style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+
+
+  
+  
+      <%elsif @symptoms == "4"%>
+      <h5>These are your diagnoses,</h5>
+      
+      <div class="row">
+          <div class="column">
+      <span>Anemic</span>
+      <br>
+    <img src= "https://i.giphy.com/media/3Oi6Ufo00Bou4/giphy.webp" height=150>
+      </div>
+      
+      
+      <div class="column">
+      <span>Sore throat</span>
+      <br>
+      <img src= "https://i.giphy.com/media/7sThmP82L5v20/giphy.webp" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Multi-joint pain</span>  
+      <br>
+      <img src= "https://i.giphy.com/media/y335xyKYQGrja/giphy.webp" height=150>
+      
+      </div>
+  <!--<img src= "https://i.giphy.com/media/l0MYwg9gvb34CDJyE/giphy.webp" height=100>-->
+  
+  <style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+        
+        
+
+      <%elsif @symptoms == "5"%>
+      <h5>These are your diagnoses,</h5>
+      
+      <div class="row">
+          <div class="column">
+      <span>Appendicitis</span>
+      <br>
+      <img src= "https://i.giphy.com/media/3o6MbmrPiWPHfmCuFa/giphy.webp" height=150>
+      
+      </div>
+      
+      <div class="column">
+      <span>Influenza</span>
+      <br>
+      <img src= "https://i.giphy.com/media/Qirsfuy8ZwxG/giphy.webp" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Viral pnuemonia</span>
+      <br>
+      <img src= "https://i.giphy.com/media/HsUEquzsRwVTW/giphy.webp" height=150>
+      </div>
+      
+      
+       <style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+        
+  
+  
+      <%elsif @symptoms == "6"%>
+      <h5>These are your diagnoses,</h5>
+      
+      <div class="row">
+          <div class="column">
+      <span>Brain hemmorage</span>
+      <br>
+      <img src= "https://i.giphy.com/media/4Xk1Kx9shumCk/giphy.webp" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Tension</span>
+      <br>
+      <img src= "https://media3.giphy.com/media/3o7TKqm1mNujcBPSpy/giphy.gif" height=150>
+      
+      </div>
+      
+      <div class="column">
+      <span>Brain swelling</span>
+      <br>
+      <img src= "https://media2.giphy.com/media/rdwAD32Yng16o/giphy.gif" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Influenza</span>
+      <br>
+      <img src= "https://i.giphy.com/media/tbsyS16NFRhwQ/giphy.webp" height=150>
+      
+      </div>
+    
+    <style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+      <!--<img src= "https://media2.giphy.com/media/rdwAD32Yng16o/giphy.gif" height=100>-->
+      <!--  <img src= "https://media3.giphy.com/media/3o7TKqm1mNujcBPSpy/giphy.gif" height=100>-->
+      <!--  <img src= "https://i.giphy.com/media/4Xk1Kx9shumCk/giphy.webp" height=100>-->
+      <!--  <img src= "https://i.giphy.com/media/tbsyS16NFRhwQ/giphy.webp" height=100>-->
+  
+      <%elsif @symptoms == "7"%>
+      <h5>These are your diagnoses,</h5>
+      
+      <div class="row">
+          <div class="column">
+      <span>Drug allergy</span>
+      <br>
+      <img src= "https://media2.giphy.com/media/JBRLYGXhhnlUA/giphy.gif" height=150>
+      </div>
+      
+      <div class="column">
+      <span>Motion sickness</span>
+      <br>
+       <img src= "https://media1.giphy.com/media/9P939YEui47kyCSVRQ/giphy.gif" height=150>
+       </div>
+       
+       <div class="column">
+      <span>Bacterial pneumonia</span>
+      <br>
+      <img src= "https://media2.giphy.com/media/VxWgBxTL6vdx6/giphy.gif" height=150>
+      </div>
+  <!--<img src= "https://media2.giphy.com/media/JBRLYGXhhnlUA/giphy.gif" height=100>-->
+    <!--<img src= "https://media1.giphy.com/media/9P939YEui47kyCSVRQ/giphy.gif" height=100>-->
+      <!--<img src= "https://media2.giphy.com/media/VxWgBxTL6vdx6/giphy.gif" height=100>-->
+  
+    <style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+  
+      <%elsif @symptoms == "8"%>
+      <h5>These are your diagnoses,</h5>
+      
+      <div class="row">
+          <div class="column">
+      <span>Common cold</span>
+      <br>
+      <img src= "https://media1.giphy.com/media/5bUzBT6ycMenS/giphy.gif" height=125>
+      </div>
+      
+      <div class="column">
+      <span>Strep throat</span>
+      <br>
+      <img src= "https://media1.giphy.com/media/kYB38pT2e4dkQ/giphy.gif" height=125>
+      </div>
+      
+      <div class="column">
+      <span>Laryngitis</span>
+      <br>
+      <img src= "https://media0.giphy.com/media/l0MYRU6D0PKNfXonm/giphy.gif" height=125>
+      </div>
+      
+     
+      
+        <style>.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0  4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}</style>
+      
+  <!--<img src= "https://media1.giphy.com/media/5bUzBT6ycMenS/giphy.gif" height=100>-->
+   <!--<img src= "https://media1.giphy.com/media/kYB38pT2e4dkQ/giphy.gif" height=100>-->
+   <!--<img src= "https://media0.giphy.com/media/l0MYRU6D0PKNfXonm/giphy.gif" height=100>-->
+
+  
+      <%elsif @symptoms == "9"%>
+      <span>We recommend to seek special assistance.</span><br><br>
+      <img src= "https://i.giphy.com/media/RFDXes97gboYg/giphy.webp" height="200">
+
+<%end%> 
+
+
+        </div>
+      </div>
+      
+    </body>
+    </html>
+
+  
+  
+  
+  

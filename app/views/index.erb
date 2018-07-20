@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dr. Klossy</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" >
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  </head>
+  
+    <body background = "https://imgur.com/Q6jsjzO">
+      <div id="nav">_</div>
+      <div id="container">
+        <div id="left">
+        <form method= "POST" class="symptom">
+        <br>
+        Age:<input type="text" name="age"><br><br>
+        <input type="radio" name="Female">Female <br>
+        <input type="radio" name="Male">Male
+       </form>
+     
+     <h2>What is your main symptom?</h2>
+     <form method = "post" action = "/diagnose" class="symptom">
+        <input type="radio" name="symptoms" class="symptom" value="1">Bloating <br>
+        <input type="radio" name="symptoms" class="symptom" value="2">Cough <br>
+        <input type="radio" name="symptoms" class="symptom" value="3">Dizziness <br>
+        <input type="radio" name="symptoms" class="symptom" value="4">Fatigue <br>
+        <input type="radio" name="symptoms" class="symptom" value="5">Fever <br>
+        <input type="radio" name="symptoms" class="symptom" value="6">Headache <br>
+        <input type="radio" name="symptoms" class="symptom" value="7">Nausea <br>
+        <input type="radio" name="symptoms" class="symptom" value="8">Throat irritation <br>
+        <input type="radio" name="symptoms" class="symptom" value="9">Other <br><br>
+        <input type="submit" class="diagnosebutton" value="Diagnose">
+    </form>
+    <h4>Sports related injury?</h4>
+    <a href="/learn_more">Learn more</a>
+    </div>
+        <div id="right">
+            <h1>Dr. Klossy</h1>
+            <ul>
+                <li>Bloating- swollen with fluid or gas</li><br>
+                <li>Cough - expeling air from the lungs with sudden sharp sounds</li><br>
+                <li>Dizziness - a sensation of spinning around and losing one's balance</li>
+                <br>
+                <li>Fatigue - extreme tiredness, typically resulting from mental or physical exertion or illness</li>
+                <br>
+                <li>Fever - an abnormally high body temperature, usually accompanied by shivering,
+                headache, and in severe instances, delirium</li>
+                <br>
+                <li>Headache - a continuous pain in the head</li>
+                <br>
+                <li>Nausea - a feeling of sickness with an inclination to vomit</li>
+                <br>
+                <li>Throat irritation -  can refer to a dry cough, a scratchy feeling at the back of the 
+                throat, a sensation of a lumpy feeling, something stuck at the back of the throat, or
+                possibly a feeling of dust in the throat</li>
+            </ul>
+            <img src="https://www.wikihow.com/images/a/a6/Cure-Stomach-Bloating-Step-20.jpg" width="125">
+            <img src="https://www.rd.com/wp-content/uploads/2017/05/03_cough_Signs-Your-Heartburn-is-Actually-Allergies_597400652_puhhha.jpg" width="125">
+            <img src="https://www.rd.com/wp-content/uploads/2018/02/02-Vertigo-Treatments-to-Finally-Cure-Your-Dizziness.jpg" width="125">
+            <img src="http://www.defactodentists.com/blog/wp-content/uploads/2018/01/Chronic_fatigue_syndrome.jpg" width="125">
+            <img src="https://medlineplus.gov/images/Fever.jpg" width="125">
+            <!--<img src="https://www.organicfacts.net/wp-content/uploads/headache-2.jpg" width="125">-->
+            <!--<img src="https://digestivecarephysicians.com/wp-content/uploads/2016/08/Nausea-e1507646093959.jpg" width="125">-->
+        </div>
+      </div>
+      
+    
+      
+    
+   </body>
+</html>
+
